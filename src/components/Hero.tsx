@@ -1,9 +1,9 @@
 import {Link} from "react-router-dom";
 const Hero = () => {
   return (
-    <div className="flex flex-col justify-around lg:flex-row-reverse lg:flex-1 items-center m-0 px-2 ">
+    <div className="flex flex-col lg:flex-row-reverse lg:flex-1 items-center m-0 px-20">
       <div className="flex  m-0">
-        <div className="flex flex-1 2xl:w-[620px] 2xl:h-[620px] sm:w-[500px] sm:h-[500px] w-[300px] justify-end mb-10">
+        <div className="flex flex-1 2xl:w-[720px] 2xl:h-[720px] sm:w-[500px] sm:h-[500px] w-[300px] justify-end mb-10 p-4">
           <img
             className="rounded-lg"
             src="https://images.unsplash.com/photo-1571193161738-deaba9b6cc26?q=80&w=1945&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -12,9 +12,9 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="flex flex-col flex-1 m-0 h-3/4  ">
+      <div className="flex flex-col flex-1 m-0 justify-self-center justify-center ">
         <span className="font-serif font-bold text-5xl text-gray-700 text-center m-1 ">
-          <h1>Empieza tu viaje literario con</h1>
+          <h1>Empieza tu viaje literario en</h1>
         </span>
         <span className="font-serif font-bold text-6xl text-center text-violet-500 mt-2">
           <h1>Bookers</h1>
@@ -35,7 +35,7 @@ const Hero = () => {
           une.
         </span>
 
-        <p className = "self-center text-white bg-violet-500 w-48 font-bold py-2 px-4 rounded m-4 text-center hover:bg-transparent hover:text-violet-500 hover:border-2 hover:border-violet-500">
+        <p className = "self-center text-white bg-violet-500 w-48 font-bold py-2 px-4 rounded m-4 text-center hover:bg-transparent hover:text-violet-500 border-2 border-violet-500">
             <Link to="/events">Ver eventos</Link>
         </p>
       </div>
