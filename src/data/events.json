@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "fecha": "15 de Abril",
+    "titulo": "Encuentro literario: Noche de Poesía",
+    "descripcion": "Únete a nosotros para una noche llena de versos y emociones. Celebraremos el arte de la poesía con lecturas de poetas locales y una sesión abierta de micrófono para aquellos que deseen compartir sus propias composiciones. ¡Ven a inspirarte y a ser inspirado por la magia de las palabras!",
+    "ubicacion": "Casa de la Cultura, Plaza de la Cultura, San José, Costa Rica"
+  },
+  {
+    "id": 2,
+    "fecha": "16 de Mayo",
+    "titulo": "Presentación del Libro 'Entre Páginas'",
+    "descripcion": "Únete a nosotros para celebrar el lanzamiento del esperado libro 'Entre Páginas' de la autora local Ana Ruiz. Habrá una charla íntima con la autora, firma de libros y una oportunidad para conversar sobre la inspiración detrás de esta cautivadora historia. ¡No te pierdas este evento literario único!",
+    "ubicacion": "Librería El Ateneo Grand Splendid, Av. Santa Fe 1860, Buenos Aires, Argentina"
+  },
+  {
+    "id": 3,
+    "fecha": "18 de Mayo",
+    "titulo": "Feria del Libro Infantil",
+    "descripcion": "¡Trae a tus pequeños lectores a nuestra Feria del Libro Infantil! Disfruta de una variedad de actividades divertidas relacionadas con la lectura, desde cuentacuentos hasta talleres de manualidades temáticas. Explora una amplia selección de libros para niños y participa en juegos educativos. ¡Una jornada perfecta para fomentar el amor por la lectura desde una edad temprana!",
+    "ubicacion": "Parque Simón Bolívar, Bogotá, Colombia"
+  },
+  {
+    "id": 4,
+    "fecha": "1 de Junio",
+    "titulo": "Taller de Escritura Creativa: Explorando Géneros",
+    "descripcion": "¿Siempre has querido escribir, pero no estás seguro por dónde empezar? Únete a nuestro taller de escritura creativa donde exploraremos diferentes géneros literarios, desde la ficción hasta la poesía. Aprende técnicas de escritura, participa en ejercicios prácticos y recibe retroalimentación constructiva de nuestros expertos. ¡Desata tu creatividad y descubre tu voz única como escritor!",
+    "ubicacion": "Centro Cultural Gabriela Mistral (GAM), Santiago, Chile"
+  },
+  {
+    "id": 5,
+    "fecha": "5 de Julio",
+    "titulo": "Club de Lectura: Viaje Literario al Siglo XIX",
+    "descripcion": "Únete a nuestro club de lectura para un emocionante viaje a través del tiempo al siglo XIX. Exploraremos obras clásicas de la literatura de esa época, desde las novelas victorianas hasta la poesía romántica. Sumérgete en discusiones enriquecedoras, comparte tus ideas y conecta con otros amantes de la literatura mientras exploramos juntos los matices de la escritura del siglo XIX. ¡Prepárate para una experiencia literaria única!",
+    "ubicacion": "Biblioteca Nacional de Uruguay, Av. 18 de Julio 1790, Montevideo, Uruguay"
+  }
+]

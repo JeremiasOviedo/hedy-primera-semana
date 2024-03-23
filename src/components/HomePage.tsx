@@ -1,6 +1,6 @@
 import Hero from "./HomeHero";
 
-const Home = () =>{
+const HomePage = () =>{
 
     return(
 
@@ -13,4 +13,4 @@ const Home = () =>{
 }
 
 
-export default Home;
+export default HomePage;

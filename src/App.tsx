@@ -1,10 +1,9 @@
-import { useState } from "react";
-import { BrowserRouter as Router, Link, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router,Route, Routes } from "react-router-dom";
 import Contact from "./components/Contact";
 import "./App.css";
-import Home from "./components/Home";
+import HomePage from "./components/HomePage";
 import Navbar from "./components/Navbar";
-import Events from "./components/Events";
+import EventsPage from "./components/EventsPage";
 
 function App() {
   return (
@@ -13,9 +12,9 @@ function App() {
         <Router>
           <Navbar />
           <Routes>
-            <Route path="/" Component={Home} />
+            <Route path="/" Component={HomePage} />
             <Route path="/contact" Component={Contact} />
-            <Route path="/events" Component={Events} />
+            <Route path="/events" Component={EventsPage} />
           </Routes>
         </Router>
         </div>
