@@ -12,22 +12,22 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="flex flex-col flex-1 m-0 justify-self-center justify-center ">
+      <div className="flex flex-col flex-1 m-0 justify-self-center justify-center px-32">
         <span className="font-serif font-bold text-5xl text-gray-700 text-center m-1 ">
           <h1>Empieza tu viaje literario en</h1>
         </span>
-        <span className="font-serif font-bold text-6xl text-center text-violet-500 mt-2">
+        <span className="font-serif font-bold text-6xl text-center text-violet-500 mt-2 ">
           <h1>Bookers</h1>
         </span>
 
-        <span className="font-serif font-light text-s  mt-20 text-gray-600 text-center">
+        <span className="font-serif font-light text-s  mt-10 text-gray-600 text-justify">
           Únete a la comunidad de lectores más grande de Latinoamérica y
           descubre un mundo de posibilidades literarias. En Bookers, conectamos
           a apasionados de la lectura de toda la región, ofreciendo un espacio
           donde compartir, explorar y disfrutar de una amplia variedad de
           historias y conocimientos.
         </span>
-        <span className="font-serif font-light text-s mb-14 text-gray-600 text-center">
+        <span className="font-serif font-light text-s mt-2 mb-14 text-gray-600 text-justify ">
           Desde clásicos de la literatura hasta las últimas tendencias, nuestra
           comunidad te invita a sumergirte en un viaje inigualable a través de
           las páginas de los libros. Únete hoy y forma parte de una comunidad
