@@ -13,7 +13,7 @@ const EventsList = () => {
             <p className="self-end bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-pink-600 h-12 p-3 rounded-full shadow-lg text-white font-bold ">
               {event.fecha}
             </p>
-            <h1 className="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 h-12">
+            <h1 className="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 xl:h-12 xl:text-left sm:h-20 sm:text-center">
               {event.titulo}
             </h1>
             <p className="font-sans text-justify text-lg text-gray-600 py-3">{event.descripcion}</p>
