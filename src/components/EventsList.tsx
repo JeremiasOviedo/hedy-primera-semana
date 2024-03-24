@@ -10,7 +10,7 @@ const EventsList = () => {
             key={event.id}
             className="bg-white pt-4 pb-2 px-6 flex flex-col shadow-lg gap-2"
           >
-            <p className="self-end bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-pink-600 h-12 p-3 rounded-full shadow-lg text-white font-bold ">
+            <p className="self-end bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-pink-600 h-12 p-3 rounded-full shadow-lg  font-bold ">
               {event.fecha}
             </p>
             <h1 className="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 xl:h-12 xl:text-left sm:h-20 sm:text-center">

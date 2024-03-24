@@ -5,7 +5,7 @@ import { BsBookmarkHeartFill } from "react-icons/bs";
 const Navbar: React.FC = () => {
   const [nav, setNav] = useState(false);
   return (
-    <div className="flex justify-between items-center px-2 w-full h-20  text-white bg-gradient-to-r from-violet-400  to-violet-500 fixed">
+    <div className="flex justify-between items-center px-2 w-full h-20  text-white bg-gradient-to-r from-violet-400  to-violet-500 fixed shadow-md">
       <div>
         <h1 className="text-3xl font-sans font-bold ml-2">
           <Link to="/">

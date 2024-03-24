@@ -1,9 +1,10 @@
 import { BrowserRouter as Router,Route, Routes } from "react-router-dom";
-import Contact from "./components/Contact";
+import ContactPage from "./components/ContactPage";
 import "./App.css";
 import HomePage from "./components/HomePage";
 import Navbar from "./components/Navbar";
 import EventsPage from "./components/EventsPage";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -13,9 +14,10 @@ function App() {
           <Navbar />
           <Routes>
             <Route path="/" Component={HomePage} />
-            <Route path="/contact" Component={Contact} />
+            <Route path="/contact" Component={ContactPage} />
             <Route path="/events" Component={EventsPage} />
           </Routes>
+          <Footer/>
         </Router>
         </div>
     </>
